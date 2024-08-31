@@ -1,0 +1,58 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.class
+
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Java
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# JetBrains Rider
+*.suo
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Other IDEs
+.vscode/
+*.code-workspace
