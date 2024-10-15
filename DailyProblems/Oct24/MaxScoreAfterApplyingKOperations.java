@@ -46,8 +46,8 @@ public class MaxScoreAfterApplyingKOperations {
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> b-a);
         Arrays.stream(nums).forEach(maxHeap::add);
 
+        int temp;
         while (k-- > 0) {
-            int temp = 0;
             if (maxHeap.peek() != null) {
                 temp = maxHeap.poll();
                 score += temp;
