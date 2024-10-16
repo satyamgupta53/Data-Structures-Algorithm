@@ -41,7 +41,7 @@ public class MaxScoreAfterApplyingKOperations {
     }
 
     // time complexity: klogn(inserting k times) + nlogn(inserting n elements)
-    public static long maxKelements(int[] nums, int k) {
+    private static long maxKelements(int[] nums, int k) {
         long score = 0;
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> b-a);
         Arrays.stream(nums).forEach(maxHeap::add);

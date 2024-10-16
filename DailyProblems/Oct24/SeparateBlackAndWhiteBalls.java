@@ -40,7 +40,7 @@ public class SeparateBlackAndWhiteBalls {
         System.out.println("Arranged String : [ " + arrangedString(balls) + " ].");
     }
 
-    public static long minimumSteps(String balls) {
+    private static long minimumSteps(String balls) {
         long steps = 0;
         int count = 0;
         for (char ball : balls.toCharArray()) {
@@ -50,7 +50,7 @@ public class SeparateBlackAndWhiteBalls {
         return steps;
     }
 
-    public static String arrangedString(String balls) {
+    private static String arrangedString(String balls) {
         char[] ballsArray = balls.toCharArray();
         int count = 0;
         for (int i = 0; i < ballsArray.length; i++) {
